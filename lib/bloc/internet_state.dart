@@ -1,20 +1,20 @@
-part of 'internet_bloc.dart';
+// part of 'internet_bloc.dart';
 
-@immutable
-abstract class InternetState {}
+// @immutable
+// abstract class InternetState {}
 
-class InternetInitial extends InternetState {}
+// class InternetInitial extends InternetState {}
 
-class ConnectedState extends InternetState{
-  final String message;
+// class ConnectedState extends InternetState{
+//   final String message;
 
-  ConnectedState({required this.message});
-}
+//   ConnectedState({required this.message});
+// }
 
-class NotConnectedState extends InternetState{
-  final String message;
+// class NotConnectedState extends InternetState{
+//   final String message;
 
-  NotConnectedState({required this.message});
+//   NotConnectedState({required this.message});
 
 
-}
+// }
